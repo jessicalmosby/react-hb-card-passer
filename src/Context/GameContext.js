@@ -12,7 +12,7 @@ const GameProvider = ({ children }) => {
 };
 
 const useGameContext = () => {
-  const cardContext = useContext(GameContext);
-  return cardContext;
+  const gameContext = useContext(GameContext);
+  return gameContext;
 };
 export { GameProvider, useGameContext };
