@@ -10,7 +10,7 @@ const suitMap = {
 
 export default function Card({ card, player }) {
   const { selectedCard, setSelectedCard } = useGameContext();
-  const { from, setFrom } = useGameContext();
+  const { setFrom } = useGameContext();
 
   function handleCardClick() {
     setFrom(player);
